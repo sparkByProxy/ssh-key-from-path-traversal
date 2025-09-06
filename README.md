@@ -15,5 +15,5 @@ To check this CVE manually, [this is a great explanation of it](https://www.hack
 - [ ] url as cli argument
 - [ ] use usernames directly from /etc/passwd
 - [ ] create ssh keyfile after a finding (and chmod 400)
-- [ ] create passphrase hash with ssh2john and output hashcat command to crack it
+- [ ] create passphrase hash with ssh2john and output hashcat command to crack it (e.g. `ssh2john id_rsa_anita > anita.hash && john anita.hash --wordlist=/usr/share/wordlists/rockyou.txt`)
 - [ ] fancy terminal colors for a hit
