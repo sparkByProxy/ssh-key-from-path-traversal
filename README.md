@@ -34,9 +34,10 @@ It also works against webapps with LFI vulnerabilities that run on linux machine
 
 ## Usage
 for CVE-2021-41773
-`python ssh.py "http://192.168.161.52/cgi-bin/"
+`python ssh.py "http://192.168.161.52/cgi-bin/"`
+
 or for other LFIs
-`python ssh.py "http://192.168.161.52/zm/index.php?view=file&path="
+`python ssh.py "http://192.168.161.52/zm/index.php?view=file&path="`
 
 
 
